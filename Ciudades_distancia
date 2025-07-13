@@ -21,11 +21,11 @@ TRANSPORTES = {
 # --- FUNCIONES ---
 def obtener_coordenadas(lugar):
     """
-    Usa la API de Nominatim para convertir el nombre de un lugar en coordenadas.
+    API Nominatim 
     """
     url = f"https://nominatim.openstreetmap.org/search?q={lugar}&format=json"
     headers = {
-        'User-Agent': 'ExamenDRY7122/1.0 (https://github.com/NicolasEstayFernandez/Examen-Transversal-Programacion-y-Redes-Virtualizadas-DRY7122)'
+        'User-Agent': 'ExamenDRY7122/1.0 (https://github.com/abresope/Examen-Transversal-Programacion-y-Redes-Virtualizadas-DRY7122.git)'
     }
     
     try:
